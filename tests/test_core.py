@@ -4,4 +4,4 @@ import unittest
 class LgtmTest(unittest.TestCase):
     def test_lgtm(self):
         from lgtm.core import lgtm
-        self.assertIsNone(lgtm('./output.png', 'LGTM'))
+        self.assertIsNone(lgtm('./test_input.jpg', 'LGTM'))
